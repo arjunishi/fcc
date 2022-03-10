@@ -1,0 +1,29 @@
+#title {
+    font-size: 400%;
+    width: 60vmax;
+    background-color: aqua;
+}
+
+.center {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+#image {
+    max-width: 70%;
+    height: auto;
+    display: block;
+}
+#tribute-info ul li {
+    text-align: center;
+    width: 60%;
+    list-style-position: inside;
+    display: flex;
+}
+
+@media screen and (min-width:1200px) {
+    .font {
+        padding: 0px 200px 15px 200px;
+    }
+}
