@@ -1,7 +1,16 @@
+body {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    background-color: white;
+  }
+
 #title {
     font-size: 400%;
     width: 60vmax;
     background-color: aqua;
+    padding: 30px;
 }
 
 .center {
@@ -11,19 +20,31 @@
 }
 
 #image {
-    max-width: 70%;
+    max-width: 80%;
     height: auto;
     display: block;
+    padding-bottom:30px ;
 }
-#tribute-info ul li {
+#tribute-link {
+    text-decoration: none;
+}
+
+#tribute-info {
     text-align: center;
-    width: 60%;
-    list-style-position: inside;
-    display: flex;
+    max-width: 1000px;
+  margin: auto;
+    
 }
+li {
+    margin-top: 10px;
+  }
+
 
 @media screen and (min-width:1200px) {
     .font {
         padding: 0px 200px 15px 200px;
     }
 }
+
+
+
