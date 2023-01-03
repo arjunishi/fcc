@@ -75,3 +75,17 @@
 
 // cc(2); cc(3); cc(7); cc('K'); cc('A');
 // console.log(cc(5));
+
+
+// // phonetic lookup
+// function phoneticLookup(val){
+//     let result = "";
+   
+//     const lookup = {
+//         firstname : "Arjun",
+//         lastname : "Sharma"
+//     }
+//     result = lookup[val];
+//     return result;
+// }
+// console.log(phoneticLookup('lastname'));
